@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 
-PROGRAM_NAME=trim
+PROGRAM_NAME="@trim"
 PROGRAM_SOURCE="src/trim.js"
 
 meta/scripts/clone-quickjs.sh

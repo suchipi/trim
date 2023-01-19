@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 
-PROGRAM_NAME=trim
+PROGRAM_NAME="@trim"
 PROGRAM_SOURCE="src/trim.js"
 
 if [ ! -e 'meta/quickjs' ]; then
